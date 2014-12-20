@@ -1,0 +1,26 @@
+body{
+  display: block;
+  margin: 0 auto;
+  width: 960px;
+  background-color:#5D83C5;
+}
+.scoreboard {
+  margin: 0 auto;
+  background-color:#7CB8FF;
+  color:black;
+
+}
+.playground {
+  margin: 0 auto;
+  background-color:#ABD1FF;
+  width: 960px;
+  height: 500px;
+
+}
+
+svg {
+  width: 960px;
+  height: 500px;
+}
+
+
