@@ -1,5 +1,28 @@
-/* your beautiful css styling goes here! */
+body{
+  display: block;
+  margin: 0 auto;
+  width: 960px;
+  background-color:#5D83C5;
+}
+.scoreboard {
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color:#7CB8FF;
+  color:black;
+  padding: 5px 5px 5px 5px;
+  box-shadow: 1px 1px 1px 1px;
+}
+.playground {
+  margin-top: 20px;
+  background-color:#ABD1FF;
+  width: 960px;
+  height: 500px;
+  box-shadow: 1px 1px 1px 1px;
+}
 
-/* Note: an asteroid image is included in this repo.
-Feel free to use it if you like. */
+svg {
+  width: 960px;
+  height: 500px;
+}
+
 
