@@ -2,7 +2,7 @@
 var data = [
   {"x_axis": 480, "y_axis": 250, "radius": 20, "color": "#00326D"},
   {"x_axis": 480, "y_axis": 250, "radius": 20, "color": "#00326D"},
-  {"x_axis": 480, "y_axis": 250, "radius": 100, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 20, "color": "#00326D"},
   {"x_axis": 480, "y_axis": 250, "radius": 50, "color": "#00326D"},
   {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
   {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
@@ -10,7 +10,32 @@ var data = [
   {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
   {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
   {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
-  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"}
+  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 20, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 20, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 20, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 50, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 20, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 20, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 20, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 50, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 10, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 20, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 20, "color": "#00326D"},
+  {"x_axis": 480, "y_axis": 250, "radius": 20, "color": "#00326D"}
 ];
 var player = [
   {"x": 30, "y": 30, "width": 12, "height": 12, "color": "green"},
@@ -165,7 +190,7 @@ function enemyUpdate(data){
 
 
   var circleAttrs = circles
-  .transition().duration(1500)
+  .transition().duration(1600)
   .tween("myTween", myTween)
   .attr("cx", function(d){return makeRandomX(d.radius);})
   .attr("cy", function(d){return makeRandomY(d.radius);})
